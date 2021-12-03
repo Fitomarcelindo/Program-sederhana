@@ -8,6 +8,7 @@ int main(){
 	biaya = 1100000;
 	
 	do{
+	cout<<"		Fitto Martcellindo	"<<endl;
 	cout<<"===================================================="<<endl;
 	cout<<"==SELAMAT DATANG SILAHKAN LAKUKAN PEMABYARAN ANDA=="<<endl;	
 	cout<<"===================================================="<<endl;
