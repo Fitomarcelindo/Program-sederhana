@@ -12,7 +12,7 @@ int main(){
 	indomie = 3000;
 	sarden = 7000;
 	
-	do{
+	
 	
 	cout<<"		SELAMAT DATANG SELAMAT BERBELANJA		"<<endl;
 	cout<<endl;
@@ -45,16 +45,6 @@ int main(){
 	cout<<"total belanja anda adalah \t: "<<"Rp. "<<total_harga<<endl;
 	cout<<endl;
 	
-	cout<<"=============================================="<<endl;
-	cout<<endl;
-	
-	cout<<"apakah anda ingin berbelanja lagi (y / n) : ";
-	cin>>ulang;
-	
-	cout<<endl;
-	cout<<"=============================================="<<endl;
-	
-	}while(ulang== "y");
 	
 	cout<<"terima kasih atas kunjungan anda "<<endl;	
 }
