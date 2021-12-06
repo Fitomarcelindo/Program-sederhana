@@ -32,7 +32,6 @@ int main(){
 	cout<<" PILIH MENU MAKANAN ANDA = ";
 	cin>>menu_mac;
 	switch (menu_mac){
-		do{
 			case 1 :
 			cout<<" 1. | PAKET PANAS 1 \t = Rp. 18.0000 | "<<endl;
 			cout<<" Masukkan jumlah pesanan = ";
@@ -85,10 +84,6 @@ int main(){
 						else{
 							cout<<" masukkan pilihan dengan benar ";
 						}
-			cout<<" Apakah anda ingin memesan lagi ? = (y/n) ";
-			cin>>loop;
-		}while (loop== "y");
-			cout<<" terima kasih titidj ";
 			break;
 		case 2 :
 			cout<<" 2. | PAKET PANAS 2 \t = Rp. 28.0000 | "<<endl;
